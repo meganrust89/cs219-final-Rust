@@ -83,3 +83,50 @@ body{
     gap: 1rem;
 }
 
+.interests {
+    padding:5rem 0;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.interests-grid {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.interest-card {
+    background: var(--card);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.interest-card:hover {
+    transform: translateY(-5px);
+}
+
+.interest-card h3 {
+    margin-bottom: 1rem;
+    color: var(--primary);
+}
+
+.interest-card p {
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column; 
+        text-align: center;
+    }
+    .interests-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* makes it stack when looking at it on mobile*/
