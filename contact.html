@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Contact Me</title>
+    <title>Index</title>
     <link rel = "stylesheet"
     href = "css/style.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="logo">
-            Academic Portfolio
+        Academic Portfolio
         </div>
-
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -20,7 +19,87 @@
     
         </ul>
     </nav>
-    <main> test contact</main>
+
+    <main>
+        <section class="contact-page container">
+            <div class="contact-header"> 
+                <h1>Contact Me</h1>
+                <p>Feel free to reach out if you have any questions or would like to collaborate!</p>
+            </div>
+            <div class="contact-layout">
+                <div class="contact-info">
+                    <h3 class="contact-label"> Direct Contact</h3>
+                    <div class="email-box">
+                        <span>example@email.com</span>
+                        <a href="mailto:contact@academic-portfolio.edu"> contact@academic-portfolio.edu</a>
+                    </div>
+                    <h3 class="contact-label"> Professional Networks</h3>
+                    <div class="network-card">
+                        <h4> ResearchGate</h4>
+                        <p> Peer-reviewed publications</p>
+                    </div>
+                    <div class="network-card">
+                        <h4> GitHub</h4>
+                        <p> Repositories & experiments</p>
+                    </div>
+                    <div class="network-card">
+                        <h4>LinkedIn</h4>
+                        <p> Professional background</p>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form"
+                    id="contactForm"></form>
+                    <div class="form-row">
+                        <div class="form-group"> 
+                            <label>Full Name</label>
+                            <input type="text"
+                            id="name"
+                            placeholder="Megan Rust">
+                        </div>
+                        <div class="form-group"> 
+                            <label>Email Address</label>
+                            <input type="email"
+                            id="email"
+                            placeholder="megan.rust@example.com">
+                        </div>
+                        <div class="form-group"> 
+                            <label>Inquiry Type</label>
+                            <select id="inquiry">
+                                <option>Research Collaboration</option>
+                                <option>Speaking Opportunity</option>
+                                <option>General Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea id="message" 
+                                    rows="8"
+                                    placeholder="Your message here...">
+                        </textarea>
+                        </div>
+                        <button type="submit"
+                        class="btn btn-primary">
+                            Send Message
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+     <footer class="footer">
+        <div class="container footer-content"> 
+            <div>
+                <h3> Professional Portfolio </h3>
+                <p>Built with academic minimalism</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">ResearchGate</a>
+            </div>
+        </div>
+    </footer>
 <script src="js/main.js"></script>
     </body>
 </html> 

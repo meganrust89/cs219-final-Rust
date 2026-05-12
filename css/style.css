@@ -187,6 +187,99 @@ body{
     line-height: 1.8;
 }
 
+/*CONTACT*/
+.contact-page {
+    padding: 6rem 0;
+}
+.contact-header {
+    max-width: 700px;
+    margin-bottom: 5rem;
+}
+.contact-header {
+    max-width: 700px;
+    margin-bottom: 5rem;
+}
+.contact-header h1 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem; 
+}
+.contact-header p {
+    color: var(--muted);
+    line-height: 1.8;
+}
+.contact-layout {
+    display: flex;
+    gap: 4rem;
+    align-items: flex-start;
+}
+.contact-info {
+    flex: 1;
+}
+.contact-form-wrapper {
+    flex: 1.5;
+    background: white;
+    padding: 2rem;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+}
+.contact-label {
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin-bottom:1rem;
+    letter-spacing: 1px;
+}
+.email.box {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.network-card {
+    background: white; 
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    margin-bottom: 1rem;
+}
+.map-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.form-row {
+    display: flex;
+    gap: 1rem;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+input, select, textarea {
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: #fafafa;
+    font-family: inherit;
+}
+textarea {
+    resize: vertical;
+}
+.contact-layout {
+    flex-direction: column;
+}
+.form-row {
+    flex-direction: column;
+}
+.contact-header h1 {
+    font-size: 2.5rem;
+}
+
 /* BUTTON */
 .hero-buttons {
     display: flex;
