@@ -21,77 +21,83 @@
     </nav>
 
     <main>
-       <section class="blog-post-page container"> 
-        <a href="blog.html"
-        class="back-link"> Back to Blog</a>
-        <div class="post-tags">
-            <span class="tag">Computer Science</span>
-            <span class="tag">Research</span>
-        </div>
-        <h1 class="post-title">
-            The Future of Decentralized Intelligence: 
-            A Cross-Disciplinary Study
-        </h1>
-        <div class="author-row">
-            <div class="author-info"> 
-                <img src="images/author.jpg"
-                alt="author">
-                <div>
-                    <h4> Dr. Alistair Thorne</h4>
-                    <p>Professor of Computer Science</p>
-                </div>
-            </div>
-            <div class="post-meta"> 
-                <span> October 24, 2024</span>
-                <span> 5 min read</span>
-            </div>
-        </div>
-        <img src="images/blog-hero.jpg"
-        alt="Blog Hero"
-        class="blog-hero-image">
-        <div class="article-content">
-            <p> In the rapidly evolving lanscape of artificial intelligence...</p>
-            <h2> The Architecture of Silence</h2>
-            <p> Traditional AI deployments rely heavily....</p>
-            <blockquote> "The true potential of intelligence is not found 
-                in the scale of the server, but in the connectivity of the edge.
-            </blockquote>
-        </div>
-        <ul class="article-list">
-            <li> Node Autonomy</li>
-            <li> Cryptographic Verification</li>
-            <li> Entropy Management</li>
-        </ul>
-        <pre class="code-block">
-            <code> for node in network.nodes:
-                initialize(node)
-            </code>
-        </pre>
-        <div class="author-card">
-            <img src="images/author.jpg"
-                alt="Author">
-                <div>
-                    <h3> About Dr. Thorne</h3>
-                    <p> Alistair Thorne is a Senior 
-                        Research Fellow specializing in distributed systems.
-                    </p>
-                </div>
-        </div>
-        <section class="related-posts">
-            <div class="section-header"> 
-                <div>
-                    <h2 class="section-title">
-                        Further Reading
-                    </h2>
-                    <p> Explore more research papers.</p>
-                </div>
-            </div>
-            <div> 
-                <div class="blog-grid">
-                </div>
+        <section class="blog-header container">
+            <h1> Research & Publications </h1>
+            <p> Exploring AI systems, ethics, and interdisciplinary innovation.</p>
+        </section>
+        <section class="blog-controls container">
+            <input type="text"
+            id="searchInput"
+            placeholder="Search articles..."> 
+            <div class="filter-buttons"> 
+                <button class="filter-btn active"
+                data-category="all"
+                >All</button>
+                <button class="filter-btn"
+                data-category="research">
+                Research
+            </button>
+            <button class="filter-btn"
+            data-category="design">
+            Design
+            </button>
             </div>
         </section>
-       </section>
+        <section class="featured-post container">
+            <img src="images/blog1.jpg"
+            alt="Featured Post">
+            <div class="featured-content">
+                <span class="blog-meta">
+                    Featured Article
+                </span>
+                <h2> Building Ethical Intelligence Systems </h2>
+                <p> Exploring scalable human-centered AI systems.</p>
+                <a href="blog-post.html"
+                class="btn btn-primary">
+            Read Article</a>
+            </div>
+        </section>
+        <section class="blog-listing container"> 
+            <div class="blog-grid"> 
+                <div class="blog-card">
+                    data-category="research">
+                    <img src="images/blog1.jpg"
+                    alt="Blog">
+                    <div class="blog-content">
+                        <span class="blog-meta"> 
+                            Reasearch
+                        </span>
+                        <h3> Neural Architecture Search</h3>
+                        <p> Investigating optimization system.</p>
+                        <a href="blog-post.html">Read Article</a>
+                    </div>
+                </div>
+                <div class="blog-card"
+                data-category="ai">
+                    <img src="images/blog2.jpg"
+                    alt="Blog"> 
+                    <div class="blog-content">
+                        <span class="blog-meta"> AI</span>
+                        <h3> Human-Centered Machine Learning </h3>
+                        <p> Designing accessible AI systems.</p>
+                        <a href="blog-post.html">
+                            Read Article
+                        </a>
+                    </div>
+                </div>
+                <div class="blog-card"
+                data-category="design">
+            <img src="image/blog3.jpg"
+            alt="blog">
+            <div class="blog-content">
+                <span class="blog-meta"> Design</span>
+                <h3> Interface Systems Thinking</h3>
+                <p> Modern UI and cognitive design.</p>
+                <a href="blog-post.html"> Read Article</a>
+            </div>
+        </div>
+            </div>
+        </section>
     </main>
      <footer class="footer">
         <div class="container footer-content"> 
