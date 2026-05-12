@@ -280,6 +280,115 @@ textarea {
     font-size: 2.5rem;
 }
 
+/*RESUME*/
+.resume-hero {
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    padding: 5rem 0;
+}
+.resume-info h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.resume-info h2 {
+    color:var(--muted);
+    margin-bottom: 2rem;
+}
+.resume-contact {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    color: var(--text);
+}
+.resume-image img {
+    width: 120px;
+    border-radius: 12px;
+}
+.resume-section {
+    padding-bottom: 6rem;
+}
+.resume-title {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid var (--border);
+    padding-bottom: 1rem;
+}
+.resume-item {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 4rem;
+    margin-bottom: 4rem;
+}
+.resume-date {
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+.resume-content h3 {
+    margin-bottom: 0.5rem;
+}
+.resume-content span {
+    color: var(--muted);
+    display: block;
+    margin-bottom: 1.5rem;
+}
+.resume-content ul {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+.skill-group {
+    background: white;
+    padding: 1.5rem;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+}
+.skill-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+.chip {
+    padding: 0.35rem 0.75rem;
+    border: 1px solid var(--border);
+    border-radius:6px;
+    font-size: 0.85rem;
+    background: white;
+}
+.publication-card {
+    background: white;
+padding: 2rem;
+border: 1px solid var(--border);
+margin-bottom: 2rem;
+}
+.awards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+.download-section {
+    text-align: center;
+    padding: 4rem 0;;
+}
+.resume-hero {
+    flex-direction: column;
+    text-align: center;
+}
+.resume-item {
+    grid-template-columns: 1fr;
+}
+.skills-grid {
+    grid-template-columns: 1fr;
+}
+.awards-grid {
+    grid-template-columns: 1fr;
+}
+
 /* BUTTON */
 .hero-buttons {
     display: flex;
