@@ -131,6 +131,61 @@ body{
     line-height: 1.8;
     max-width: 600px;
 }
+.background-section {
+    display: flex;
+    gap: 5rem;
+    padding-bottom: 7rem;
+}
+.background-left {
+    flex: 1;
+}
+.background-right {
+    flex: 2;
+}
+.background-right p {
+    color: var(--text);
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+.expertise-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+.feature-card {
+    background: #ead8bd;
+}
+.small-card {
+    max-width: 250px;
+}
+.career {
+    padding: 7rem 0;
+}
+.career-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4rem;
+}
+.career-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    gap: 3rem;
+    padding: 2rem 0;
+    border-top: 1px solid var(--border);
+}
+.career-date {
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+.career-role span {
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+.career-description {
+    color: var(--text);
+    line-height: 1.8;
+}
 
 /* BUTTON */
 .hero-buttons {
